@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Jordan McCullough</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Jordan McCullough</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Unity Multiplayer Project 😼</h1>
+							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+							<p> This project was originally started as a multiplayer demonstration to go alongside my dissertation
+								and included a test level showcasing players joining a server and performing very basic game mechanics 
+								such as collecting resources, collecting loot and attacking. 
+							</p>
+							<p>
+								<b>The loot system</b> had many underlying components that came together in different ways. I enjoy designing
+								systems this way, breaking down the system into smaller components and seperating areas that may be repurposed
+								in other areas. Unity's ScriptableObjects were a great way to implement individual loot items into the system
+								by creating various levels of inherited functions and variables..etc...
+								<br>
+								Loot containers (or chests) also include their own inventory component, which their own loot generation script
+								uses to place the generated items into. To select which loot is able spawn inside a container there is an attached
+								loot table ScriptableObject which includes a dictionary where the droppable items are stored as keys and their
+								'roll weight' is stored as the associated value. Doing it in this format works great as the key in a dictionary
+								needs to be unique, so an item can't be accidently placed in a loot table multiple times.
+							</p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
