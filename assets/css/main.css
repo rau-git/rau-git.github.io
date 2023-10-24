@@ -2781,27 +2781,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #393646;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #393646;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #393646;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #393646;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #444c61;
+					color: #393646;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #3d5c95;
+					color: #393646;
 				}
 
 /* Image */
@@ -3313,6 +3313,10 @@ input, select, textarea {
 		}
 
 		.spotlights > section:nth-child(3) {
+			background-color: rgba(0, 0, 0, 0.075);
+		}
+
+		.spotlights > section:nth-child(5) {
 			background-color: rgba(0, 0, 0, 0.075);
 		}
 
